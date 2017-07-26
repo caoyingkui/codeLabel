@@ -11,6 +11,7 @@
   int index;
   int[] count;
 
+    ItemAnnotator annotator = (ItemAnnotator)session.getAttribute(PageParameter.currentAnnotator);
   if (session.isNew() || session.getAttribute(PageParameter.currentAnnotator) == null){
       ServletContext sct= getServletConfig().getServletContext();
       String url = request.getParameter(PageParameter.database_url);
