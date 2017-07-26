@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb61c45d-cdd0-43d9-94ff-ee281bb11d6a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../codeLabel/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java" afterPath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/MyServletContextListener.java" afterPath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/MyServletContextListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/PageParameter.java" afterPath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/PageParameter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../codeLabel/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/web/index.jsp" afterPath="$PROJECT_DIR$/../codeLabel/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/web/js/creator.js" afterPath="$PROJECT_DIR$/../codeLabel/web/js/creator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/web/label.jsp" afterPath="$PROJECT_DIR$/../codeLabel/web/label.jsp" />
-    </list>
+    <list default="true" id="bb61c45d-cdd0-43d9-94ff-ee281bb11d6a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../codeLabel/out/" />
     <ignored path="$PROJECT_DIR$/../codeLabel/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -181,7 +171,11 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="3275">
                   <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-                  <folding />
+                  <folding>
+                    <element signature="e#0#9484#0" expanded="false" />
+                    <element signature="e#1660#1661#0" expanded="false" />
+                    <element signature="e#1692#1693#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -1209,7 +1203,7 @@
       <workItem from="1500980329655" duration="3545000" />
       <workItem from="1501033956139" duration="29457000" />
       <workItem from="1501078353481" duration="830000" />
-      <workItem from="1501079209406" duration="37000" />
+      <workItem from="1501079209406" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1500872610672</created>
@@ -1225,11 +1219,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501054920915</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="功能基本上完善了">
+      <created>1501079285813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1501079285813</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200098000" />
+    <option name="totallyTimeSpent" value="200145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1287,7 +1288,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
     <MESSAGE value="保存label" />
-    <option name="LAST_COMMIT_MESSAGE" value="保存label" />
+    <MESSAGE value="功能基本上完善了" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能基本上完善了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1752,7 +1754,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3275">
           <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#9484#0" expanded="false" />
+            <element signature="e#1660#1661#0" expanded="false" />
+            <element signature="e#1692#1693#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
