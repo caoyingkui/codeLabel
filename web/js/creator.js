@@ -56,6 +56,8 @@ function getTableColumnInfo(){
     });
 
     displayColumnsInfo(tableColumns);
+    displayColumnOptionsInfo(tableColumns);
+    displayLabelSourceOptionInfo(tableColumns);
 }
 
 function displayColumnsInfo(tableColumns){
@@ -76,7 +78,27 @@ function displayColumnsInfo(tableColumns){
     }
 }
 
+function displayColumnOptionsInfo(tableColumns){
+    var columns = tableColumns.columns;
 
+    for(var i = 0 ; i < columns.length ; i ++){
+        var columnName = columns[i].columnName;
+        appendOptionToDispalyElements($("#dispaly_element_selector_div") , columnName)
+    }
+}
+
+function displayLabelSourceOptionInfo(tableColumns){
+    var columns = tableColumns.columns;
+    $("#labelSourceSelector").empty();
+    appendOptionToLabelSource($("#labelSourceSelector") , "default");
+    appendOptionToLabelSource($("#labelSourceSelector") , "labelResult");
+
+    for(var i = 0 ; i < columns.length ; i++){
+        var columnName = columns[i].columnName;
+        appendOptionToLabelSource($("#labelSourceSelector") , columnName);
+    }
+
+}
 
 function appendTableToDiv(div , tableID){
     div.empty();
@@ -106,4 +128,63 @@ function appendCellToTableHead(tableHead , cell){
 function appendCellToTableBody(tableBody , cell){
     var tableCell = "<td>" + cell + "</td>";
     tableBody.append(tableCell);
+}
+
+function appendOptionToDispalyElements(div , option){
+    var optionDiv =
+        "<div class='col-md-4 col-sm-4'>" +
+            "<p>" +
+                "<input type='checkbox' class='columnOption' id='"+ option+"'/>" + option +
+            "</p>" +
+         "</div>" ;
+    div.append(optionDiv);
+}
+
+function appendOptionToLabelSource(select , option){
+    var _option = "<option value='" + option +"'>" + option + "</option>";
+    select.append(_option);
+}
+
+function getDispalyElements(){
+
+    var elements = $("div.displayElement>div>p").find('input');
+    var result = "";
+    for(var i = 1 ; i < elements.length ; i++){
+        if(elements[i].checked ) {
+            result = result + "," + elements[i].id;
+        }
+    }
+    if(elements.length > 0)
+        result = elements[0].id + result ;
+    return result;
+}
+
+
+function constructLabelTask(){
+
+    var sqlUrl = "jdbc:mysql://" + $("#database_url").val() + ":" + $("#database_port").val() + "/" + $("#database_database").val();
+    var sqlUser = $("#database_user").val();
+    var sqlPwd = $("#database_pwd").val();
+    var tableName = $("#tableSelector option:selected").val();
+    var displayElements = getDispalyElements();
+    var labelColumn = $("#labelSourceSelector option:selected").val();
+
+    var parameter = {
+        "sqlUrl": sqlUrl ,
+        "sqlUser" : sqlUser,
+        "sqlPwd" : sqlPwd,
+        "tableName":tableName,
+        "displayElements" : displayElements,
+        "labelColumn" : labelColumn
+    }
+    $.ajax({
+        type:'Post',
+        url: "ConstructLabelTask",
+        data:parameter ,
+        async: false,
+        success:function(data){
+            window.location.href = "label.jsp";
+        }
+    });
+
 }

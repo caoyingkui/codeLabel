@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/labelCreatorPage.css">
         
 
         <!-- Js -->
@@ -35,7 +36,6 @@
 
     </head>
     <body>
-
 
     <header>
         <div class="container">
@@ -86,13 +86,10 @@
         </div>
     </header>
 
-    
-
-
     <section id="banner" class="wow fadeInUp">
         <div class="container col-md-11 col-sm-11" style="margin-left:20px;margin-right:20px">
 
-            <div class="col-md-4 col-sm-4">
+            <div id="databaseSelectSection"class="col-md-4 col-sm-4" >
                 <h1>
                     创建标注
                 </h1>
@@ -139,7 +136,7 @@
                 <dl class="form">
                     <dd>
                         <h4>SELECT TABLE</h4>
-                        <div id="table_selector_div" class="col-md-12 col-sm-12 example">
+                        <div id="table_selector_div" class=" col-md-12 col-sm-12 example">
                             <label style="height:30px">Table List:</label>
                             <select id="tableSelector" style="height:30px" class="form-control-lg input-block">
                                 <option value="default">default</option>
@@ -170,8 +167,8 @@
                 <dl class="form">
                     <dd>
                         <h4>SELECT DISPLAY ELEMENTS</h4>
-                        <div id="dispaly_element_selector_div" class="col-md-12 col-sm-12">
-                            <div class="col-md-4 col-sm-4">
+                        <div id="dispaly_element_selector_div" class="displayElement col-md-12 col-sm-12">
+                           <!--<div class="col-md-4 col-sm-4">
                                 <p><input type="checkbox" checked="checked" style="margin-right:10px" /> test1</p>
                             </div>
 
@@ -181,7 +178,7 @@
 
                             <div class="col-md-4 col-sm-4">
                                 <p><input type="checkbox" checked="checked" style="margin-right:10px" /> test3</p>
-                            </div>
+                            </div>-->
                         </div>
                     </dd>
                 </dl>
@@ -191,168 +188,23 @@
                         <h4>SELECT LABELS SOURCE COLUM</h4>
                         <div id="labels_source_div" class="col-md-12 col-sm-12">
                             <div class="col-md-6 col-sm-6">
-                                <select>
+                                <select id="labelSourceSelector">
                                     <option value="default">default</option>
                                 </select>
                             </div>
                         </div>
                     </dd>
+                </dl>
+
+                <dl>
+                    <dd>
+                        <input type="button" class="btn btn-info btn-sm" onclick="constructLabelTask();" value="创建" style="width:120px;height:30px;margin-left:100px">
+                    <dd>
                 </dl>
                 <hr>
-                <dl class="form">
-                    <dd>
-                        <label>SELECT LABELS SOURCE COLUM</label>
-                        <div id="labels_source_div1" class="col-md-12 col-sm-12">
-                            <div class="col-md-6 col-sm-6">
-                                <select>
-                                    <option value="default">default</option>
-                                </select>
-                            </div>
-                        </div>
-                    </dd>
-                </dl>
             </div>
         </div>
     </section>
-	<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
-
-
-    <section id="feature">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay=".8s">
-                    <h2 class="title">Our Focused on Feature</h2>
-
-                    <div class="feature-item">
-
-                        <div class="media">
-                            <div class="pull-left icon" href="#">
-                                <i class="fa fa-paint-brush"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Reliable and Secure Platform</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisici ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="feature-item">
-
-                        <div class="media">
-                            <div class="pull-left icon" href="#">
-                                <i class="fa fa-qrcode"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Everything is perfectly orgainized</h4>
-                                <p>Aipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="feature-item">
-
-                        <div class="media">
-                            <div class="pull-left icon" href="#">
-                                <i class="fa fa-recycle"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Rapid customer support</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay=".8s">
-                    <div class="block">
-                        <img class="img-responsive" src="images/featured-app.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="utility">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
-                    <img class="img-responsive" src="images/mockup.png" alt="">
-                </div>
-                <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-delay=".8s">
-                    <div class="block">
-                        <h2>Amazing Compatibility.</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com Neque porro quisqua
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="utility-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay=".8s">
-                    <div class="block">
-                        <h2>Remarkable Features</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com Neque porro quisquam est, 
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay=".8s">
-                    <img class="img-responsive" src="images/app-screen.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="subscribe" >
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 wow fadeInDown" data-wow-delay=".8s">
-                    <div class="block">
-                        <div class="title text-center">
-                            <h2>Stay Connected</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, non!</p>
-                        </div>
-                        
-                        
-
-                        <form class="form-inline text-center col-sm-12 col-xs-12" role="form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="signup-form" >
-                                
-                                
-                            </div>
-                            <a href="" type="submit" class="btn btn-default btn-signup">
-                                <i class="fa fa-paper-plane"></i>
-                            </a>
-                        </form>
-                    </div>
-                    
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="wow fadeInUp" data-wow-delay=".8s">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-12">
-                        <a class="footer-logo"href="#">
-                            <img class="img-responsive" src="images/footer-logo.png" alt="">
-                        </a>
-                    <p>Copyright © 2014 Themefisher. All rights reserved. Designed & developed by themefisher. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-                    
-                </div>
-            </div>
-        </div>
-    </footer>
 
 </body>
 </html>

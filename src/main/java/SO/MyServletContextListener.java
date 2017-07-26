@@ -20,11 +20,14 @@ public class MyServletContextListener implements ServletContextListener{
         try {
             ItemAnnotator annorator = new ItemAnnotator();
             ServletContext sct=sce.getServletContext();
-            sct.setAttribute(PageParameter.iniAnnotator , null);
-            sct.setAttribute(PageParameter.currentAnnotator , null);
+            sct.setAttribute(PageParameter.initAnnotator , null);
+            ItemAnnotator tt = new ItemAnnotator();
+            sct.setAttribute(PageParameter.currentAnnotator , tt);
             System.out.println("======listener test is beginning=========");
         } catch(Exception e) {
             e.printStackTrace();
         }
     }
+
+
 }

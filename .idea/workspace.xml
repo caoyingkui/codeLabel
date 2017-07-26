@@ -2,56 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb61c45d-cdd0-43d9-94ff-ee281bb11d6a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/javax.servlet-api-3.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/sqlConnector.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/images/app-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/images/app.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/images/featured-app.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/images/footer-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/images/mockup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/.idea/artifacts/codeLabel_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/.idea/libraries/Maven__org_json_json_20160810.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/.idea/webContexts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/codeLabel.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/DatabaseBrowser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/MyServletContextListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/PageParameter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/src/main/java/servlet/DatabaseBrowserServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/css/carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/css/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/css/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/css/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/creator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/docs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/ie-emulation-modes-warning.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/ie10-viewport-bug-workaround.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/validation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/vendor/jquery-1.10.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/vendor/modernizr-2.6.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/js/wow.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/label.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/web/test.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../codeLabel/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../codeLabel/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java" afterPath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/MyServletContextListener.java" afterPath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/MyServletContextListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/PageParameter.java" afterPath="$PROJECT_DIR$/../codeLabel/src/main/java/SO/PageParameter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../codeLabel/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/web/index.jsp" afterPath="$PROJECT_DIR$/../codeLabel/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/web/js/creator.js" afterPath="$PROJECT_DIR$/../codeLabel/web/js/creator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../codeLabel/web/label.jsp" afterPath="$PROJECT_DIR$/../codeLabel/web/label.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/../codeLabel/out/" />
     <ignored path="$PROJECT_DIR$/../codeLabel/target/" />
@@ -61,6 +20,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/codeLabel$index.coverage" NAME="index Coverage Results" MODIFIED="1501063941734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -76,31 +38,48 @@
     <favorites_list name="codeLabel" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45957446">
+    <splitter split-orientation="horizontal" split-proportion="0.19649334">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ItemAnnotator.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ItemAnnotator.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2025">
-                  <caret line="89" column="11" lean-forward="false" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+                <state relative-caret-position="25">
+                  <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
                   <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1677#1678#0" expanded="true" />
+                    <element signature="e#1715#1716#0" expanded="true" />
+                    <element signature="method#setDispalyElements#0;class#ItemAnnotator#0" expanded="false" />
+                    <element signature="method#addDisplayElement#0;class#ItemAnnotator#0" expanded="false" />
+                    <element signature="e#2377#2390#0" expanded="false" />
+                    <element signature="e#6030#6040#0" expanded="true" />
+                    <element signature="e#6697#6729#0" expanded="false" />
                     <element signature="method#createClassification#0;class#ItemAnnotator#0" expanded="false" />
+                    <element signature="method#indexofAPI#0;class#ItemAnnotator#0" expanded="false" />
                     <element signature="method#deleteApiFromString#0;class#ItemAnnotator#0" expanded="false" />
                     <element signature="method#addApiInString#0;class#ItemAnnotator#0" expanded="false" />
                     <element signature="method#addTag#0;class#ItemAnnotator#0" expanded="false" />
+                    <element signature="method#deleteTag#0;class#ItemAnnotator#0" expanded="false" />
+                    <element signature="method#addAnnotation#0;class#ItemAnnotator#0" expanded="false" />
+                    <element signature="method#deleteAnnotation#0;class#ItemAnnotator#0" expanded="false" />
                     <element signature="method#deletePost#0;class#ItemAnnotator#0" expanded="false" />
+                    <marker date="1501077666704" expanded="false" signature="6822:6832" ph="&lt;~&gt;" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../codeLabel/web/index.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="171" column="15" lean-forward="false" selection-start-line="171" selection-start-column="15" selection-end-line="171" selection-end-column="15" />
-                  <folding />
+                <state relative-caret-position="4500">
+                  <caret line="180" column="37" lean-forward="false" selection-start-line="180" selection-start-column="37" selection-end-line="180" selection-end-column="37" />
+                  <folding>
+                    <marker date="1501065598858" expanded="false" signature="8891:8908" ph="..." />
+                    <marker date="1501065598858" expanded="false" signature="9102:9119" ph="..." />
+                    <marker date="1501065598858" expanded="false" signature="9313:9330" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -108,7 +87,7 @@
           <file leaf-file-name="DatabaseBrowserServlet.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/servlet/DatabaseBrowserServlet.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1250">
+                <state relative-caret-position="925">
                   <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -118,15 +97,11 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="PageParameter.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/PageParameter.java">
+          <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../codeLabel/web/WEB-INF/web.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="53" />
+                <state relative-caret-position="550">
+                  <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
@@ -135,11 +110,9 @@
           <file leaf-file-name="DatabaseBrowser.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/DatabaseBrowser.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1850">
+                <state relative-caret-position="1925">
                   <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
                   <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="method#main#0;class#DatabaseBrowser#0" expanded="false" />
                     <element signature="method#start#0;class#DatabaseBrowser#0" expanded="false" />
                     <element signature="method#close#0;class#DatabaseBrowser#0" expanded="false" />
                   </folding>
@@ -147,12 +120,87 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="creator.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="MyServletContextListener.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/MyServletContextListener.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="475">
+                  <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ServletContextListener.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/../codeLabel/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletContextListener.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="ConstructLabelTaskServlet.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/servlet/ConstructLabelTaskServlet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="800">
+                  <caret line="43" column="58" lean-forward="false" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="label.jsp" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../codeLabel/web/label.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="400">
+                  <caret line="16" column="75" lean-forward="false" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PageParameter.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/PageParameter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="575">
+                  <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Writer.java" pinned="false" current-in-tab="false">
+            <entry file="jar://F:/Java/jdk1.8.0_111/src.zip!/java/io/Writer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3275">
+                  <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="creator.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../codeLabel/web/js/creator.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="431">
-                  <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="3075">
+                  <caret line="176" column="44" lean-forward="false" selection-start-line="176" selection-start-column="44" selection-end-line="176" selection-end-column="44" />
+                  <folding>
+                    <element signature="n#!!block;n#appendTableSelector#0" expanded="false" />
+                    <element signature="n#!!block;n#displayColumnsInfo#0" expanded="false" />
+                    <element signature="n#!!block;n#appendTableToDiv#0" expanded="false" />
+                    <element signature="n#!!block;n#appendHeadToTable#0" expanded="false" />
+                    <element signature="n#!!block;n#appendBodyToTable#0" expanded="false" />
+                    <element signature="n#!!block;n#appendCellToTableHead#0" expanded="false" />
+                    <element signature="n#!!block;n#appendCellToTableBody#0" expanded="false" />
+                    <element signature="n#!!block;n#appendOptionToDispalyElements#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -166,6 +214,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="Class" />
       </list>
     </option>
@@ -195,6 +244,12 @@
       <find>servi</find>
       <find>label.jsp</find>
       <find>database</find>
+      <find>content</find>
+      <find>clean</find>
+      <find>clear(</find>
+      <find>sct</find>
+      <find>jumpTo</find>
+      <find>5</find>
     </findStrings>
     <replaceStrings>
       <replace>label.jsp</replace>
@@ -223,20 +278,27 @@
         <option value="$PROJECT_DIR$/../codeLabel/web/js/validation.js" />
         <option value="$USER_HOME$/Downloads/mysql-connector-java-5.1.6.jar!/com/mysql/jdbc/NonRegisteringDriver.class" />
         <option value="$PROJECT_DIR$/../codeLabel/src/SO/MyServletContextListener.java" />
-        <option value="$PROJECT_DIR$/../codeLabel/web/label.jsp" />
         <option value="$PROJECT_DIR$/../codeLabel/src/SO/ItemAnnotator.java" />
         <option value="$PROJECT_DIR$/../codeLabel/web/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/../codeLabel/src/SO/DatabaseBrowser.java" />
         <option value="$PROJECT_DIR$/../codeLabel/src/servlet/DatabaseBrowserServlet.java" />
         <option value="$PROJECT_DIR$/../codeLabel/pom.xml" />
-        <option value="$PROJECT_DIR$/../codeLabel/web/WEB-INF/web.xml" />
         <option value="$USER_HOME$/Downloads/mysql-connector-java-5.1.6.jar!/com/mysql/jdbc/Util.class" />
         <option value="$PROJECT_DIR$/../codeLabel/src/main/java/servlet/DatabaseBrowserServlet.java" />
         <option value="$PROJECT_DIR$/../codeLabel/out/artifacts/codeLabel_war_exploded/js/creator.js" />
         <option value="$PROJECT_DIR$/../codeLabel/out/artifacts/codeLabel_war_exploded/index.jsp" />
         <option value="$PROJECT_DIR$/../codeLabel/src/main/java/SO/DatabaseBrowser.java" />
+        <option value="$PROJECT_DIR$/../codeLabel/web/css/labelPageCreator.css" />
+        <option value="$PROJECT_DIR$/../codeLabel/web/css/labelCreatorPage.css" />
+        <option value="$PROJECT_DIR$/../codeLabel/web/in.html" />
+        <option value="$PROJECT_DIR$/../codeLabel/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../codeLabel/web/index.jsp" />
+        <option value="$PROJECT_DIR$/../codeLabel/src/main/java/SO/MyServletContextListener.java" />
         <option value="$PROJECT_DIR$/../codeLabel/web/js/creator.js" />
+        <option value="$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java" />
+        <option value="$PROJECT_DIR$/../codeLabel/src/main/java/SO/PageParameter.java" />
+        <option value="$PROJECT_DIR$/../codeLabel/src/main/java/servlet/ConstructLabelTaskServlet.java" />
+        <option value="$PROJECT_DIR$/../codeLabel/web/label.jsp" />
       </list>
     </option>
   </component>
@@ -259,7 +321,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -297,15 +361,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artifacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codeLabel_war_exploded" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -319,19 +375,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="artifacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codeLabel_war_exploded" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,7 +393,95 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codeLabel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codeLabel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codeLabel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codeLabel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codeLabel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codeLabel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codeLabel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codeLabel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,9 +498,10 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codeLabel" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/AdminLTE 2 _ Boxed Layout_files/_all-skins.min.css" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1067,12 +1204,32 @@
       <workItem from="1500734125926" duration="6019000" />
       <workItem from="1500773686711" duration="489000" />
       <workItem from="1500779147944" duration="35000" />
-      <workItem from="1500872295689" duration="222000" />
+      <workItem from="1500872295689" duration="7556000" />
+      <workItem from="1500947572464" duration="1196000" />
+      <workItem from="1500980329655" duration="3545000" />
+      <workItem from="1501033956139" duration="29457000" />
+      <workItem from="1501078353481" duration="830000" />
+      <workItem from="1501079209406" duration="37000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1500872610672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500872610672</updated>
+    </task>
+    <task id="LOCAL-00002" summary="保存label">
+      <created>1501054920915</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1501054920915</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157699000" />
+    <option name="totallyTimeSpent" value="200098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1088,7 +1245,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20956938" sideWeight="0.41267306" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.016267942" sideWeight="0.4392971" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1098,16 +1255,16 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37511963" sideWeight="0.84717786" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3167464" sideWeight="0.9025559" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23827751" sideWeight="0.58732694" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.016267942" sideWeight="0.56070286" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12726304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12140575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1115,8 +1272,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16555023" sideWeight="0.44675186" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16555023" sideWeight="0.43610224" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1125,6 +1283,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <MESSAGE value="保存label" />
+    <option name="LAST_COMMIT_MESSAGE" value="保存label" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1137,7 +1300,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java</url>
-          <line>52</line>
+          <line>134</line>
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
@@ -1149,55 +1312,61 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java</url>
-          <line>103</line>
+          <line>232</line>
           <properties />
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java</url>
-          <line>269</line>
+          <line>399</line>
           <properties />
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java</url>
-          <line>324</line>
+          <line>454</line>
           <properties />
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../codeLabel/web/label.jsp</url>
-          <line>51</line>
+          <line>48</line>
           <properties />
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/DatabaseBrowser.java</url>
-          <line>94</line>
+          <url>file://$PROJECT_DIR$/../codeLabel/web/label.jsp</url>
+          <line>25</line>
           <properties />
-          <option name="timeStamp" value="89" />
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/DatabaseBrowser.java</url>
-          <line>107</line>
+          <url>file://$PROJECT_DIR$/../codeLabel/web/label.jsp</url>
+          <line>263</line>
           <properties />
-          <option name="timeStamp" value="90" />
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../codeLabel/src/main/java/servlet/DatabaseBrowserServlet.java</url>
-          <line>74</line>
+          <url>file://$PROJECT_DIR$/../codeLabel/web/label.jsp</url>
+          <line>279</line>
           <properties />
-          <option name="timeStamp" value="92" />
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../codeLabel/src/main/java/servlet/DatabaseBrowserServlet.java</url>
-          <line>68</line>
+          <url>file://$PROJECT_DIR$/../codeLabel/web/label.jsp</url>
+          <line>13</line>
           <properties />
-          <option name="timeStamp" value="93" />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../codeLabel/web/label.jsp</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java</url>
-          <line>351</line>
+          <line>481</line>
           <properties class="SO.ItemAnnotator" method="deletePost">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1223,17 +1392,24 @@
           <line>6</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../codeLabel/web/js/creator.js</url>
+          <line>164</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../codeLabel/web/js/creator.js</url>
+          <line>149</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="96" />
+      <option name="time" value="106" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
-        <watch expression="borwswer" language="JAVA" />
-        <watch expression="browser" language="JAVA" />
-        <watch expression="sql" language="JAVA" />
-        <watch expression="returnData" language="JAVA" />
-        <watch expression="result" language="JAVA" />
-        <watch expression="tables" language="JAVA" />
+        <watch expression="content" language="JSP" />
+        <watch expression="((HttpSession) session).getAttribute(&quot;isNew&quot;)" language="JSP" custom="javax.servlet.http.HttpSession" />
+        <watch expression="getServletConfig().getServletContext().getAttribute(PageParameter.isNew)" language="JSP" custom="SO.PageParameter" />
       </configuration>
       <configuration name="Application">
         <watch expression="tableColumns" language="JAVA" />
@@ -1246,95 +1422,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://F:/Java/jdk1.8.0_111/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11125">
-          <caret line="508" column="0" lean-forward="false" selection-start-line="508" selection-start-column="0" selection-end-line="508" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#84225#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#10144#10145#0" expanded="false" />
-            <element signature="e#10181#10182#0" expanded="false" />
-            <element signature="e#11991#11992#0" expanded="false" />
-            <element signature="e#12045#12046#0" expanded="false" />
-            <element signature="e#12720#12721#0" expanded="false" />
-            <element signature="e#12790#12791#0" expanded="false" />
-            <element signature="e#18896#19112#0" expanded="false" />
-            <element signature="e#19111#19112#0" expanded="false" />
-            <element signature="e#37807#37808#0" expanded="false" />
-            <element signature="e#37839#37840#0" expanded="false" />
-            <element signature="e#40716#40717#0" expanded="false" />
-            <element signature="e#40753#40754#0" expanded="false" />
-            <element signature="e#44527#44528#0" expanded="false" />
-            <element signature="e#44554#44555#0" expanded="false" />
-            <element signature="e#48436#48437#0" expanded="false" />
-            <element signature="e#48499#48500#0" expanded="false" />
-            <element signature="e#48546#48547#0" expanded="false" />
-            <element signature="e#48604#48605#0" expanded="false" />
-            <element signature="e#48747#48748#0" expanded="false" />
-            <element signature="e#48811#48812#0" expanded="false" />
-            <element signature="e#63283#63284#0" expanded="false" />
-            <element signature="e#63310#63311#0" expanded="false" />
-            <element signature="e#66057#66058#0" expanded="false" />
-            <element signature="e#66137#66138#0" expanded="false" />
-            <element signature="e#70464#70629#0" expanded="false" />
-            <element signature="e#70628#70629#0" expanded="false" />
-            <element signature="e#83683#83684#0" expanded="false" />
-            <element signature="e#83719#83720#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/jdk1.8.0_111/src.zip!/java/util/logging/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8875">
-          <caret line="397" column="0" lean-forward="false" selection-start-line="397" selection-start-column="0" selection-end-line="397" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../codeLabel/src/SO/SOQuestiosClassifier.java" />
-    <entry file="jar://F:/Java/jdk1.8.0_111/src.zip!/java/util/logging/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8875">
-          <caret line="397" column="0" lean-forward="false" selection-start-line="397" selection-start-column="0" selection-end-line="397" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/jdk1.8.0_111/src.zip!/java/util/logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="1720" column="0" lean-forward="false" selection-start-line="1720" selection-start-column="0" selection-end-line="1720" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/jdk1.8.0_111/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9275">
-          <caret line="406" column="0" lean-forward="false" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/jdk1.8.0_111/src.zip!/java/lang/reflect/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../codeLabel/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/jdk1.8.0_111/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="325" column="36" lean-forward="true" selection-start-line="325" selection-start-column="36" selection-end-line="325" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/Java/jdk1.8.0_111/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2920">
@@ -1353,13 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27100">
           <caret line="1141" column="0" lean-forward="false" selection-start-line="1141" selection-start-column="0" selection-end-line="1141" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../codeLabel/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletContextListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1531,14 +1611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../codeLabel/web/label.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3875">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../codeLabel/out/artifacts/codeLabel_war_exploded/label.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6677">
@@ -1560,47 +1632,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../codeLabel/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../codeLabel/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/MyServletContextListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="89" column="11" lean-forward="false" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
-          <folding>
-            <element signature="method#createClassification#0;class#ItemAnnotator#0" expanded="false" />
-            <element signature="method#deleteApiFromString#0;class#ItemAnnotator#0" expanded="false" />
-            <element signature="method#addApiInString#0;class#ItemAnnotator#0" expanded="false" />
-            <element signature="method#addTag#0;class#ItemAnnotator#0" expanded="false" />
-            <element signature="method#deletePost#0;class#ItemAnnotator#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/PageParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1617,7 +1652,7 @@
         <state relative-caret-position="1450">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <marker date="1500739949838" expanded="true" signature="64:615" ph="{...}" />
+            <marker date="1501068352707" expanded="true" signature="64:615" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1626,13 +1661,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="146" column="107" lean-forward="false" selection-start-line="146" selection-start-column="107" selection-end-line="146" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../codeLabel/web/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../codeLabel/web/css/labelCreatorPage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AdminLTE 2 _ Boxed Layout_files/_all-skins.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="0" column="22665" lean-forward="false" selection-start-line="0" selection-start-column="22658" selection-end-line="0" selection-end-column="22665" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../codeLabel/web/in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="407" column="46" lean-forward="false" selection-start-line="407" selection-start-column="46" selection-end-line="407" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/jdk1.8.0_111/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="492" column="12" lean-forward="false" selection-start-line="492" selection-start-column="12" selection-end-line="492" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/jdk1.8.0_111/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="552" column="22" lean-forward="false" selection-start-line="552" selection-start-column="16" selection-end-line="552" selection-end-column="22" />
+          <folding>
+            <element signature="e#6252#6253#0" expanded="false" />
+            <element signature="e#6320#6321#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../codeLabel/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/DatabaseBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding>
+            <element signature="method#start#0;class#DatabaseBrowser#0" expanded="false" />
+            <element signature="method#close#0;class#DatabaseBrowser#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2054">
+          <caret line="128" column="14" lean-forward="false" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/servlet/DatabaseBrowserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
+        <state relative-caret-position="925">
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1641,31 +1748,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/DatabaseBrowser.java">
+    <entry file="jar://F:/Java/jdk1.8.0_111/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#DatabaseBrowser#0" expanded="false" />
-            <element signature="method#start#0;class#DatabaseBrowser#0" expanded="false" />
-            <element signature="method#close#0;class#DatabaseBrowser#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="3275">
+          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../codeLabel/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletContextListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/MyServletContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../codeLabel/web/js/creator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="3075">
+          <caret line="176" column="44" lean-forward="false" selection-start-line="176" selection-start-column="44" selection-end-line="176" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!block;n#appendTableSelector#0" expanded="false" />
+            <element signature="n#!!block;n#displayColumnsInfo#0" expanded="false" />
+            <element signature="n#!!block;n#appendTableToDiv#0" expanded="false" />
+            <element signature="n#!!block;n#appendHeadToTable#0" expanded="false" />
+            <element signature="n#!!block;n#appendBodyToTable#0" expanded="false" />
+            <element signature="n#!!block;n#appendCellToTableHead#0" expanded="false" />
+            <element signature="n#!!block;n#appendCellToTableBody#0" expanded="false" />
+            <element signature="n#!!block;n#appendOptionToDispalyElements#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../codeLabel/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="171" column="15" lean-forward="false" selection-start-line="171" selection-start-column="15" selection-end-line="171" selection-end-column="15" />
+        <state relative-caret-position="4500">
+          <caret line="180" column="37" lean-forward="false" selection-start-line="180" selection-start-column="37" selection-end-line="180" selection-end-column="37" />
+          <folding>
+            <marker date="1501065598858" expanded="false" signature="8891:8908" ph="..." />
+            <marker date="1501065598858" expanded="false" signature="9102:9119" ph="..." />
+            <marker date="1501065598858" expanded="false" signature="9313:9330" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/ItemAnnotator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+            <element signature="method#setDispalyElements#0;class#ItemAnnotator#0" expanded="false" />
+            <element signature="method#addDisplayElement#0;class#ItemAnnotator#0" expanded="false" />
+            <element signature="e#2377#2390#0" expanded="false" />
+            <element signature="e#6030#6040#0" expanded="true" />
+            <element signature="e#6697#6729#0" expanded="false" />
+            <element signature="method#createClassification#0;class#ItemAnnotator#0" expanded="false" />
+            <element signature="method#indexofAPI#0;class#ItemAnnotator#0" expanded="false" />
+            <element signature="method#deleteApiFromString#0;class#ItemAnnotator#0" expanded="false" />
+            <element signature="method#addApiInString#0;class#ItemAnnotator#0" expanded="false" />
+            <element signature="method#addTag#0;class#ItemAnnotator#0" expanded="false" />
+            <element signature="method#deleteTag#0;class#ItemAnnotator#0" expanded="false" />
+            <element signature="method#addAnnotation#0;class#ItemAnnotator#0" expanded="false" />
+            <element signature="method#deleteAnnotation#0;class#ItemAnnotator#0" expanded="false" />
+            <element signature="method#deletePost#0;class#ItemAnnotator#0" expanded="false" />
+            <marker date="1501077666704" expanded="false" signature="6822:6832" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/SO/PageParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../codeLabel/src/main/java/servlet/ConstructLabelTaskServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="43" column="58" lean-forward="false" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../codeLabel/web/label.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="75" lean-forward="false" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
           <folding />
         </state>
       </provider>

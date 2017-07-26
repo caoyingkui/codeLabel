@@ -8,36 +8,32 @@
   String[] APIs;
   String[] salientAPIs;
   String[][] content;
+  String[] displayElements = null;
   int index;
   int[] count;
+  int displayNumber = 0;
 
-    ItemAnnotator annotator = (ItemAnnotator)session.getAttribute(PageParameter.currentAnnotator);
-  if (session.isNew() || session.getAttribute(PageParameter.currentAnnotator) == null){
-      ServletContext sct= getServletConfig().getServletContext();
-      String url = request.getParameter(PageParameter.database_url);
-      String port = request.getParameter(PageParameter.database_port);
-      String database = request.getParameter(PageParameter.database_database);
-      String user = request.getParameter(PageParameter.database_user);
-      String pwd = request.getParameter(PageParameter.database_pwd);
-
-      url = "jdbc:mysql://" + url + ":" + port + "/" + database;
-
-      ItemAnnotator annotator = new ItemAnnotator();//new ItemAnnotator(url ,user , pwd );
-      //ItemAnnotator annotator = (ItemAnnotator)sct.getAttribute(PageParameter.iniAnnotator);
-      session.setAttribute(PageParameter.currentAnnotator, annotator);
-      content = annotator.getAllNodes();
-
+  ServletContext context = getServletConfig().getServletContext();
+  ItemAnnotator annotator = (ItemAnnotator)context.getAttribute(PageParameter.currentAnnotator);
+  if ((boolean)context.getAttribute(PageParameter.isNew)  ){
+      context.setAttribute(PageParameter.isNew , false );
+	  content = annotator.getAllNodes();
+	  displayNumber = annotator.getDispalyNumber();
       session.setAttribute(PageParameter.getAllItem ,content);
       session.setAttribute(PageParameter.pageIndex,0);
       index = 0;
 
+      displayElements = (String[])annotator.getDispalyElements().toArray(new String[0]);
+
       //改动 2 改为 5
-      if(content[index][5] != null && content[index][5].compareTo("") != 0){
-          APIs = content[index][5].split(",");
+      if(content[index][displayNumber - 1] != null && content[index][displayNumber - 1].length() > 0){
+          APIs = content[index][displayNumber - 1].split(",");
       }else {
           APIs = null;
       }
   } else {
+      displayNumber = annotator.getDispalyNumber();
+      displayElements = annotator.getDispalyElements().toArray(new String[0]);
       content = (String[][])session.getAttribute(PageParameter.getAllItem);
 
       String addApiName = request.getParameter(PageParameter.addTag);
@@ -114,8 +110,8 @@
       content = cfr.getAllNodes();
     }
     //改动 5 改成 2
-    if(content[index][5] != null && content[index][5].compareTo("") != 0){
-      APIs = content[index][5].split(",");
+    if(content[index][displayNumber - 1] != null && content[index][displayNumber - 1].compareTo("") != 0){
+      APIs = content[index][displayNumber - 1].split(",");
     }else {
       APIs = null;
     }
@@ -257,7 +253,7 @@
             }
             //说明post有标记salient元素
             //改动 2改成5
-            else if(content[i][5] != null && content[i][5].length() > 0) {
+            else if(content[i][displayNumber - 1] != null && content[i][displayNumber - 1].length() > 0) {
               displayAll += colorDesignStart;
               displayAll += PageParameter.color(18);
               displayAll += colorDesignEnd;
@@ -281,26 +277,17 @@
 
         <div>
           <%
-            out.print("<h1>Answer ");
-            out.print((int)session.getAttribute(PageParameter.pageIndex));
-            //改动
-            out.print(":   "+content[(int)session.getAttribute(PageParameter.pageIndex)][0] + "<h1>");// "   " + content[(int)session.getAttribute(PageParameter.pageIndex)][3] + "<h1>");
+              index = (int)session.getAttribute(PageParameter.pageIndex);
+              System.out.println(index);
+              for(int i = 0 ; i < displayElements.length ; i ++){
+                  String temp = "<h1>" + displayElements[i] +"</h1>";
+                  out.print(temp);
+                  out.print("<hr>");
+                  out.print(content[index][i]);
+                  out.print("<hr>");
+              }
           %>
         </div>
-        <hr>
-        <div>
-            <!-- 改动  1 ga-->
-          <%= content[(int)session.getAttribute(PageParameter.pageIndex)][1] %>
-        </div>
-        <hr>
-          <div>
-              <!-- 改动  1 ga-->
-              <%= content[(int)session.getAttribute(PageParameter.pageIndex)][4] %>
-          </div>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
         <hr>
       </div>
     </div>

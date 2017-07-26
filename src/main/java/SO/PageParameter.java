@@ -18,9 +18,10 @@ public class PageParameter {
     public static final String deleteTag = "deleteTag";
     public static final String addAnnotation = "addAnnotation";
     public static final String deleteAnnotation = "deleteAddAnnotation";
-    public static final String iniAnnotator = "iniAnnotator";
+    public static final String initAnnotator = "initAnnotator";
     public static final String currentAnnotator = "currentAnnotator";
     public static final String searchItemIndex = "searchItemIndex";
+    public static final String isNew = "isNew";
 
     public static final String colorContent[] = {	"#2ecc71","#9b59b6","#34495e","#f1c40f","#e67e22",
             "#e74c3c","#bdc3c7","#7f8c8d","#16a085","#27ae60",

@@ -18,8 +18,90 @@ public class ItemAnnotator {
     public int[] classificationCategoryCount;
     public ResultSet rs;
 
+    private String sqlUrl;
+    private String sqlUser;
+    private String sqlPassword;
+    private String sqlDrivenName;
+
+    private String tableName;
+    private List<String> dispalyElements;
+    private String labelColumn;
+    private int dispalyNumber;
+
+    private String sql;
+
+    //region getter and setter
+    public String getSqlUrl(){
+        return sqlUrl;
+    }
+    public void setSqlUrl(String value){
+        this.sqlUrl = value;
+    }
+
+    public String getSqlUser(){
+        return sqlUser;
+    }
+    public void setSqlUser(String value){
+        this.sqlUser = value;
+    }
+
+    public String getSqlPassword(){
+        return sqlPassword;
+    }
+    public void setSqlPassword(String value){
+        this.sqlPassword = value;
+    }
+
+    public String getSqlDrivenName(){
+        return sqlDrivenName;
+    }
+    public void setSqlDrivenName(String value){
+        this.sqlDrivenName = value;
+    }
+
+    public String getTableName(){
+        return tableName;
+    }
+    public void setTableName(String value){
+        this.tableName = value;
+    }
+
+    public String getLabelColumn(){
+        return labelColumn;
+    }
+    public void setLabelColumn(String value){
+        this.labelColumn = value;
+    }
+
+
+    public List<String> getDispalyElements(){
+        return dispalyElements;
+    }
+    public void setDispalyElements(List<String> value){
+        if(dispalyElements == null){
+            dispalyElements = new ArrayList<String>();
+        }else{
+            dispalyElements.clear();
+        }
+        for(String element : value){
+            dispalyElements.add(element);
+        }
+    }
+    public void addDisplayElement(String element){
+        if(dispalyElements == null){
+            dispalyElements = new ArrayList<String>();
+        }
+        dispalyElements.add(element);
+    }
+
+    public int getDispalyNumber(){
+        return dispalyNumber;
+    }
+    //endregion
+
     public static void main(String[] args) throws Exception{
-        SqlConnector select = new SqlConnector("jdbc:mysql://127.0.0.1:3306/stackoverflow" ,
+        //region main
+        /*SqlConnector select = new SqlConnector("jdbc:mysql://127.0.0.1:3306/stackoverflow" ,
                 "root" ,
                 "woxnsk" ,
                 "com.mysql.jdbc.Driver");
@@ -81,8 +163,8 @@ public class ItemAnnotator {
                     insert.execute();
                 }
             }
-        }
-
+        }*/
+        // endregion
     }
 
 
@@ -96,10 +178,57 @@ public class ItemAnnotator {
     }
 
     public ItemAnnotator(String sqlUrl , String sqlUser , String sqlPassword ){
+        this.sqlUrl = sqlUrl;
+        this.sqlUser = sqlUser;
+        this.sqlPassword = sqlPassword;
+        this.sqlDrivenName = "com.mysql.jdbc.Driver";
         conn = new SqlConnector(sqlUrl , sqlUser , sqlPassword , "com.mysql.jdbc.Driver");
         conn.start();
     }
 
+    private boolean constructSql(){
+        sql = "select ELEMENT_LIST from TABLE_NAME";
+        String elementList ="" ;
+        dispalyNumber = dispalyElements.size() + 1;
+        if(dispalyNumber == 0 || tableName == null || tableName.compareTo("") == 0)
+            return false;
+
+        Iterator<String> it = dispalyElements.iterator();
+        while(it.hasNext()){
+            elementList += (it.next() + " , ");
+        }
+        elementList += labelColumn;
+
+        sql = sql.replace("ELEMENT_LIST" , elementList);
+        sql = sql.replace("TABLE_NAME" , tableName);
+        return true;
+    }
+
+    public String[][] getAllNodes(){
+        ArrayList<String[]> list = new ArrayList<String[]>();
+        try{
+            if(sql != null && sql.length() > 0 || constructSql()) {
+                conn.setPreparedStatement(sql);
+                rs = conn.executeQuery();
+                while (rs.next()) {
+                    String[] row = new String[dispalyNumber];
+                    for (int i = 0; i < dispalyNumber; i++) {
+                        row[i] = rs.getString(i + 1);
+                    }
+                    list.add(row);
+                }
+            }
+
+        }catch(Exception e){
+            list = null;
+            System.out.println();
+        }finally {
+            return list.toArray(new String[0][]);
+        }
+    }
+
+    //region old version getAllNodes
+    /*
     public String[][] getAllNodes(){
         ArrayList<String[]> list = new ArrayList<String[]>();
         try{
@@ -121,7 +250,8 @@ public class ItemAnnotator {
         }
 
         return list.toArray(new String[0][]);
-    }
+    }*/
+    //endregion
 
 
     /*public String[][] getAllNodes() throws Exception {

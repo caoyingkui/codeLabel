@@ -9,14 +9,25 @@
     </listener>
 
     <servlet>
-        <description></description>
-        <display-name>DatabaseBrowser</display-name>
-        <servlet-name>DatabaseBrowser</servlet-name>
-        <servlet-class>servlet.DatabaseBrowserServlet</servlet-class>
-    </servlet>
+    <description></description>
+    <display-name>DatabaseBrowser</display-name>
+    <servlet-name>DatabaseBrowser</servlet-name>
+    <servlet-class>servlet.DatabaseBrowserServlet</servlet-class>
+</servlet>
     <servlet-mapping>
         <servlet-name>DatabaseBrowser</servlet-name>
         <url-pattern>/DatabaseBrowser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>ConstructLabelTask</display-name>
+        <servlet-name>ConstructLabelTask</servlet-name>
+        <servlet-class>servlet.ConstructLabelTaskServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConstructLabelTask</servlet-name>
+        <url-pattern>/ConstructLabelTask</url-pattern>
     </servlet-mapping>
 
 
